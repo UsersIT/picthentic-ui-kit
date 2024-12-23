@@ -1,3 +1,2 @@
-// здесь будет список реэкспортированных компонентов
-//export * from "./Button"
-//export * from "./Card"
+export * from './Button/Button'
+export * from './Spinner/Spinner'
