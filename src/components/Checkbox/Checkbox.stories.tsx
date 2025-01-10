@@ -1,17 +1,21 @@
-import { useState } from 'react'
+import type { Meta, StoryObj } from '@storybook/react'
 
-import { Meta } from '@storybook/react'
+import { useState } from 'react'
 
 import { CheckBox, CheckboxProps } from './Checkbox'
 
-export default {
+const meta = {
   component: CheckBox,
   tags: ['autodocs'],
   title: 'components/CheckBox',
-} as Meta<typeof CheckBox>
+} satisfies Meta<typeof CheckBox>
 
-export const Default = {
+export default meta
+type Story = StoryObj<typeof meta>
+
+export const Default: Story = {
   args: {
+    checked: false,
     disabled: false,
     label: 'Click here',
   },
