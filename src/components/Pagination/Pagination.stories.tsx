@@ -43,6 +43,7 @@ const meta = {
     },
   },
   component: Pagination,
+  tags: ['autodocs'],
   title: 'Components/Pagination',
 } satisfies Meta<typeof Pagination>
 

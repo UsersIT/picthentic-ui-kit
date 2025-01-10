@@ -11,6 +11,7 @@ const meta = {
       },
     },
   },
+  tags: ['autodocs'],
   title: 'Components/Table',
 } satisfies Meta<typeof Table.Root>
 
