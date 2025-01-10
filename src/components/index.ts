@@ -1,5 +1,7 @@
 export * from './Button/Button'
 export * from './Checkbox/Checkbox'
+export * from './Dialog/Dialog'
+export * from './Modal/Modal'
 export * from './ScrollArea/ScrollArea'
 export * from './Spinner/Spinner'
 export * from './Typography/Typography'
