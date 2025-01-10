@@ -1,2 +1,5 @@
+export { ArrowDown } from './components/ArrowDown'
 export { ArrowIosBack } from './components/ArrowIosBack'
 export { Close } from './components/Close'
+export { RussiaFlag } from './components/RussiaFlag'
+export { UnitedKingdomFlag } from './components/UnitedKingdomFlag'
