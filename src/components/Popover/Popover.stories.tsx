@@ -2,8 +2,6 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 import { useState } from 'react'
 
-import Link from 'next/link'
-
 import { BellFilled } from '../../assets/icons'
 import { Button } from '../Button/Button'
 import { Popover } from './Popover'
@@ -104,7 +102,15 @@ export const Simple: Story = {
           <ul>
             {content.map(item => (
               <li key={item}>
-                <Button as={Link} fullWidth href={'#'} style={linkStyles} variant={'text'}>
+                <Button
+                  as={'a'}
+                  fullWidth
+                  href={'#'}
+                  rel={'noopener noreferrer'}
+                  style={linkStyles}
+                  target={'_blank'}
+                  variant={'text'}
+                >
                   {item}
                 </Button>
               </li>
