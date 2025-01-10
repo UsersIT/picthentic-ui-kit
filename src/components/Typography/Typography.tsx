@@ -1,4 +1,3 @@
-/* eslint-disable react/display-name */
 import { ElementType, ReactNode, forwardRef } from 'react'
 
 import cn from 'clsx'
