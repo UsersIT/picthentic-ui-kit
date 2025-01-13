@@ -11,9 +11,9 @@ export type DialogProps = {
   buttonsContainerClassName?: string
   buttonsJustify?: 'flex-end' | 'flex-start' | 'space-between'
   buttonsOrder?: 'cancel-to-confirm' | 'confirm-to-cancel'
-  cancelButtonTitle: string
+  cancelButtonTitle?: string
   confirmButtonFullWidth?: boolean
-  confirmButtonTitle: string
+  confirmButtonTitle?: string
   onCancel?: () => void
   onConfirm?: () => void
   showCancelButton?: boolean
