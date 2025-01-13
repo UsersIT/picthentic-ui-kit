@@ -1,5 +1,7 @@
 export * from './Button/Button'
+export * from './Card/Card'
 export * from './Checkbox/Checkbox'
+export * from './Combobox/Combobox'
 export * from './Dialog/Dialog'
 export * from './Modal/Modal'
 export * from './Pagination/Pagination'
