@@ -1,4 +1,3 @@
-/* eslint-disable react/display-name */
 import type { PolymorphPropsWithRef, PolymorphRef } from '../../types/polymorph'
 
 import { ElementType, ReactNode, forwardRef } from 'react'
