@@ -1,3 +1,4 @@
+'use client'
 import { useEffect, useState } from 'react'
 import clsx from 'clsx'
 import s from './Carousel.module.scss'

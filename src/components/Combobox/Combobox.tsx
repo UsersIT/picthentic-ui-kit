@@ -1,3 +1,4 @@
+'use client'
 import type { ChangeEvent, MouseEventHandler } from 'react'
 
 import {

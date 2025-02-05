@@ -1,3 +1,4 @@
+'use client'
 import { CSSProperties, JSX, ReactNode, useState } from 'react'
 
 import * as Label from '@radix-ui/react-label'
