@@ -26,13 +26,11 @@ export const Carousel = ({
         setCurrentIndex(newIndex)
         if (onNextClick) onNextClick(newIndex)
     }
-
     const prevSlide = () => {
         const newIndex = (currentIndex - 1 + imagesUrl.length) % imagesUrl.length
         setCurrentIndex(newIndex)
         if (onPrevClick) onPrevClick(newIndex)
     }
-
     const goToSlide = (index: number) => {
         setCurrentIndex(index)
     }
