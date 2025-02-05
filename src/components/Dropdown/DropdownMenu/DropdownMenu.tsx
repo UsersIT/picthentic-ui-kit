@@ -1,3 +1,4 @@
+'use client'
 import { ComponentPropsWithoutRef, ElementRef, ReactNode, forwardRef } from 'react'
 
 import * as RadixDropdown from '@radix-ui/react-dropdown-menu'

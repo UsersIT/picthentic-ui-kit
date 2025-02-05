@@ -1,3 +1,4 @@
+'use client'
 import { ComponentProps, FC } from 'react'
 
 import { clsx } from 'clsx'

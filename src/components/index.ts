@@ -18,3 +18,6 @@ export * from './TextArea/TextArea'
 export * from './TextField/TextField'
 export * from './Time/Time'
 export * from './Typography/Typography'
+export * from './Avatar/Avatar'
+export * from './Carousel/Carousel'
+

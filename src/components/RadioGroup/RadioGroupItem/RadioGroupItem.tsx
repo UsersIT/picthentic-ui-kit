@@ -1,3 +1,4 @@
+'use client'
 import * as RadioGroup from '@radix-ui/react-radio-group'
 import { RadioGroupItemProps } from '@radix-ui/react-radio-group'
 import cn from 'clsx'

@@ -1,3 +1,4 @@
+'use client'
 import { ElementType, ReactNode, forwardRef } from 'react'
 
 import cn from 'clsx'
